@@ -1,0 +1,229 @@
+body 
+* {
+    font-family: sans-serif
+  }
+  
+  body {
+    background-color: #70865e;
+   }
+   
+     h1 {
+       background-color: #394823;
+       text-align:center;
+       padding: 10px 10px 10px 10px;
+       color: white;
+   
+     }
+     
+     .page {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin: 0 0 10 0;
+      vertical-align: middle;
+      background-color: #9ba37b;
+    }
+
+    
+     
+      .card1 {
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align: center;
+    height: 25%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+  }
+  .card2 {
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align: center;
+    height: 25%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+  }
+  .card3 {
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+  }
+  .card4 {
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align: center;
+    height: 25%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+  }
+  
+  
+     
+     .card1:hover {
+       background-color: #4E6C50;
+       cursor: pointer;
+     }
+     .card2:hover {
+       background-color: #4E6C50;
+       cursor: pointer;
+     }
+     .card3:hover {
+       background-color: #4E6C50;
+       cursor: pointer;
+     }
+     .card4:hover {
+       background-color: #4E6C50;
+       cursor: pointer;
+     }
+     .card1:active {
+       background-color: blue;
+       cursor: pointer;
+     }
+     .card2:active {
+      color: blue;
+       cursor: pointer;
+     }
+     .card3:active {
+       background-color: blue;
+       cursor: pointer;
+     }
+     .card4:active {
+       background-color: blue;
+       cursor: pointer;
+     }
+     .maple-image{
+       max-width: 100%;
+       max-height: 100%;
+     }
+     
+     .hickory-image{
+       max-width: 100%;
+       max-height: 100%;
+     }
+     
+     .oak-image{
+       max-width: 100%;
+       max-height: 100%;
+     }
+     
+     .ash-image{
+       max-width: 100%;
+       max-height: 100%;
+     }
+     
+     .column {
+       flex: 50%;
+     }
+     
+     .leaf-type {
+       font-size: 10px;
+     }
+     
+     .answer-box {
+       background-color: #9fa8fc;
+       padding: 5px;
+       margin: 5px;
+       border-radius:5px;
+     }
+     
+     #picture-one {
+       
+       background-size: cover;
+       text-align: center;
+       margin: 5px 5px 5px 5px;
+       border-radius: 5px;
+     }
+     #picture-two {
+       
+       background-size: cover;
+       text-align: center;
+       margin: 5px 5px 5px 5px;
+       border-radius: 5px;
+     }
+     #picture-three {
+     
+       background-size: cover;
+       text-align: center;
+       margin: 5px 5px 5px 5px;
+       border-radius: 5px;
+     }
+     #picture-four {
+       
+       background-size: cover;
+       text-align: center;
+       margin: 5px 5px 5px 5px;
+       border-radius: 5px;
+     }
+     #column-left-below{
+       background-color: blue;
+       background-size: cover;
+       text-align: left;
+       margin: 5px 5px 5px 5px;
+       border-radius: 5px;
+       
+       
+   }
+   .button {
+     appearance: none;
+     background-color: #2ea44f;
+     border: 1px solid rgba(27, 31, 35, .15);
+     border-radius: 6px;
+     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     padding: 6px 16px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: middle;
+     white-space: nowrap;
+   }
+   
+   .button:focus:not(:focus-visible):not(.focus-visible) {
+     box-shadow: none;
+     outline: none;
+   }
+   
+   .button:hover {
+     background-color: #2c974b;
+   }
+   
+   .button:focus {
+     box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+     outline: none;
+   }
+   
+   .button:disabled {
+     background-color: #94d3a2;
+     border-color: rgba(27, 31, 35, .1);
+     color: rgba(255, 255, 255, .8);
+     cursor: default;
+   }
+   
+   .button:active {
+     background-color: #298e46;
+     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+   }
+   
+   .button{
+     margin: 20px 0px 20px 0px
+   }
+   .active {
+       background-color: #394823;
+     }
